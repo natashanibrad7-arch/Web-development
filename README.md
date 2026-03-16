@@ -2,7 +2,4 @@
 Fablab program 1 ssgmce
 
 Author name= Natasha Nibrad
--HTML
--CSS
--JAVASCRIPT
 
