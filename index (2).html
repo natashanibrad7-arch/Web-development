@@ -1,0 +1,111 @@
+<html>
+    <body>
+        <form action="#" method="post" enctype="multipart/form-data">
+        Full Name:
+        <input type="text" name="fullname" placeholder="Enter your full name">
+        <br></br>
+
+        Password:
+        <input type="password" name="password" minlength="6" required>
+        <br></br>
+
+        Email:
+        <input type="email" name="email" required>
+        <br></br>
+
+        Date of Birth:
+        <input type="date" name="dob">
+        <br></br>
+
+        Phone:
+        <input type="tel" name="phone" pattern="[0-9]{10}" placeholder="https://example.com">
+        <br></br>
+
+        Website:
+        <input type="url" name="website" placeholder="https://example.com">
+        <br></br>
+
+        Favorite Color:
+        <input type="color" name="color">
+        <br></br>
+
+        Satisfaction Level:
+        <input type="range" name="range" min="0" max="100">
+        <br></br>
+
+        Gender:
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female 
+        <input type="radio" name="gender" value="other"> Other
+        <br></br>
+    
+        Hobbies:
+        <input type="checkbox" name="hobby" value="reading"> Reading
+        <input type="checkbox" name="hobby" value="music"> Music
+        <input type="checkbox" name="hobby" value="singing"> Singing
+        <br></br>
+
+        City:
+        <select name="city">
+            <option value="">select City</option>
+            <option value="pune">Pune</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="nagpur">Nagpur</option>
+        </select>
+        <br></br>
+
+        Subjects (Select Multiple):
+        <select name="subjects" multiple size="4">
+            <option value="math">Mathematics</option>
+            <option value="physics">Physics</option>
+            <option value="mechanics">Mechanics</option>
+            <option value="chemistry">Chemistry</option>
+            <option value="computer">Computer Science</option>
+        </select>
+        <br></br>
+
+        Upload Profile Picture:
+        <input type="file" name="profile" accept="image/*">
+        <br></br>
+
+        Address:
+        <br>
+        <textarea name="address" rows="4" cols="40" placeholder="Enter your address"></textarea>
+        <br><br>
+
+        Courses:
+        <select name="course" multiple size="4">
+            <option value="HTML">HTML</option>
+            <option value="JAVA">JAVA</option>
+            <option value="CSS">CSS</option>
+            <option value="PYTHON">PYTHON</option>
+        </select>
+        <br></br>
+
+        Branch:
+        <select name="branch" multiple size="5">
+            <option value="CSE">Computer Science Engineering</option>
+            <opton value="IT">Information Technology</opton>
+            <option value="EE">Electrical Engineering</option>
+            <option value="ECE">Electronics & Communications Engineering </option>
+            <option value="ME">Mechanical Engineering</option>
+        </select>
+        <br></br>
+
+        City:
+        <input type="text" name="city">
+        <br></br>
+
+        State:
+        <input type="text" name="state">
+        <br></br>
+
+        Country:
+        <input type="text" name="country">
+        <br></br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+    </body>
+</html>
